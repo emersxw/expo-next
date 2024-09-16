@@ -5,13 +5,13 @@ import { Button } from "@repo/ui";
 export default function Native() {
   return (
     <View style={styles.container}>
-      <Text style={styles.header}>Native</Text>
+      <Text style={styles.header}>Native 23</Text>
       <Button
         onClick={() => {
           console.log("Pressed!");
           alert("Pressed!");
         }}
-        text="Boop"
+        text="Boop 2"
       />
       <StatusBar style="auto" />
     </View>
